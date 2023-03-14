@@ -1,4 +1,5 @@
 from globals import *
+from germs import CommonCold
 
 class Control(object):
 
@@ -31,6 +32,8 @@ class Control(object):
         # player.hurt_sound = pygame.mixer.Sound("sounds/ouch.wav")
 
     def update(self):
+        # This is called at the start of each frame.
+
         pass
 
     def run(self):
